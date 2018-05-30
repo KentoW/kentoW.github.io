@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
         <link href="css/app.css" rel="stylesheet">
     </head>
     <body>
@@ -30,7 +31,7 @@
                 This is a new research area in which natural language processing, music information processing and intelligent interface are fused. 
                 Once a reasonably sophisticated computational model of lyrics is obtained, the model will provide us a better understanding of the nature and structure of lyrics, which will then allow us to consider building computer systems which can enhance the creativity of human lyrics writers. 
                 <br>
-                My technical background are language model, discourse structure analysis, text generation, support interface, SNS analysis and sentiment analysis.
+                My technical background are language model, discourse structure analysis, text generation, bayesian mode, support interface, SNS analysis and sentiment analysis.
             </div>
 
             <h2>Biography</h2>
@@ -51,6 +52,77 @@
                 <li>10/2014-2/2015: Administrative assistant of Japan Society for the Promotion of Science (JSPS)</li>
             </ul>
 
+            <h2>Research Projects (<a href="#pub">Publications</a>)</h2>
+            <div class="project">
+                <div class="project_name"><a href="http://aclweb.org/anthology/N18-1015" target="_blank">A Melody-conditioned Lyrics Language Model (2017-)</a></div>
+                <img src="./img/prj_04.png" class="prj_img">
+                <div class="prj_text">
+                    <b>Abstract: </b><br>
+                    This paper presents a novel, data-driven language model that produces entire lyrics for a given input melody. 
+                    (1) We create a collection of 1,000 lyrics-melody pairs augmented with precise syllable-note alignments and word/sentence/paragraph boundaries. 
+                    (2) We provide a quantitative analysis of the correlation between word/sentence/paragraph boundaries in lyrics and melodies. 
+                    (3) We propose an RNN-based lyrics language model conditioned on a featurized melody. 
+                    <br>
+                    <b>Info: </b><br>
+                    <u>Kento Watanabe</u>, Yuichiroh Matsubayashi, Satoru Fukayama, Masataka Goto, Kentaro Inui and Tomoyasu Nakano.
+                    <br>
+                    NAACL-HLT 2018
+                </div>
+                <br class="clear">
+            </div>
+            <div class="project">
+                <div class="project_name"><a href="http://dl.acm.org/citation.cfm?id=3025194" target="_blank">LyriSys: An Interactive Support System for Writing Lyrics Based on Topic Transition (2014-)</a></div>
+                <img src="./img/prj_03.png" class="prj_img">
+                <div class="prj_text">
+                    <b>Abstract: </b><br>
+                    This paper presents LyriSys, a novel lyric-writing support system. 
+                    LyriSys allows users to create and revise their work incrementally in a trial-and-error manner. 
+                    Through fine-grained interactions with the system, the user can create the specifications of the musical structure and the story of the lyrics in terms of the verse-bridge-chorus structure, the number of lines, words and syllables, and most importantly, the transition over semantic topics such as "scene", "dark" and "sweet love". 
+                    <br>
+                    <b>Info: </b><br>
+                    <u>Kento Watanabe</u>, Yuichiroh Matsubayashi, Kentaro Inui, Tomoyasu Nakano, Satoru Fukayama and Masataka Goto.
+                    <br>
+                    ACM IUI 2017
+                </div>
+                <br class="clear">
+            </div>
+            <div class="project">
+                <div class="project_name"><a href="http://search.ieice.org/bin/summary.php?id=e101-d_4_1167&category=D&year=2018&lang=E&abst=" target="_blank">Modeling Storylines in Lyrics (2014-)</a></div>
+                <img src="./img/prj_02.png" class="prj_img">
+                <div class="prj_text">
+                    <b>Abstract: </b><br>
+                    This paper addresses the issue of modeling the discourse nature of lyrics and presented the first study aiming at capturing the two common discourse-related notions: storylines and themes. 
+                    We assume that a storyline is a chain of transitions over topics of segments and a song has at least one entire theme. 
+                    We then hypothesize that transitions over topics of lyric segments can be captured by a probabilistic topic model which incorporates a distribution over transitions of latent topics and that such a distribution of topic transitions is affected by the theme of lyrics.
+                    <br>
+                    <b>Info: </b><br>
+                    <u>Kento Watanabe</u>, Yuichiroh Matsubayashi, Kentaro Inui, Satoru Fukayama, Tomoyasu Nakano, and Masataka Goto. 
+                    <br>
+                    IEICE Transactions on Information and Systems
+                </div>
+                <br class="clear">
+            </div>
+            <div class="project">
+                <div class="project_name"><a href="http://aclweb.org/anthology/C/C16/C16-1184.pdf" target="_blank">Modeling Discourse Segments in Lyrics Using Repeated Patterns (2016-)</a></div>
+                <img src="./img/prj_01.png" class="prj_img">
+                <div class="prj_text">
+                    <b>Abstract: </b><br>
+                    This study proposes a computational model of the discourse segments in lyrics to understand and to model the structure of lyrics. 
+                    To test our hypothesis that discourse segmentations in lyrics strongly correlate with repeated patterns, we conduct the first large-scale corpus study on discourse segments in lyrics. 
+                    Next, we propose the task to automatically identify segment boundaries in lyrics and train a logistic regression model for the task with the repeated pattern and textual features. 
+                    <br>
+                    <b>Info: </b><br>
+                    <u>Kento Watanabe</u>, Yuichiroh Matsubayashi, Naho Orita, Naoaki Okazaki, Kentaro Inui, Satoru Fukayama, Tomoyasu Nakano, Jordan B. L. Smith and Masataka Goto.
+                    <br>
+                    COLING 2016
+                </div>
+                <br class="clear">
+            </div>
+
+
+
+
+
             <h2>Awords</h2>
             <ul>
                 <li>Tohoku University Student Incentive Award (2018)</li>
@@ -58,7 +130,7 @@
                 <li>The Association for Natural Language Processing Best Paper Award (2013)</li>
                 <li>The 75th Annual Meeting of the IPSJ Conference Student Incentive Award (2013)</li>
             </ul>
-            <h2>Publications</h2>
+            <h2><a name="pub"></a>Publications</h2>
             <h3>Journal papers</h3>
             <ol>
                 <li>
@@ -73,13 +145,12 @@
                     Journal of Natural Language Processing, Vol.13, No.2, pp.461–484, June 2013.
                 </li>
             </ol>
-
             <h3>International Conference, Workshop, Symposium</h3>
             <ol>
                 <li>
                     Reina Akama, <u>Kento Watanabe</u>, Sho Yokoi, Sosuke Kobayashi, Kentaro Inui. 
-                    Unsupervised Learning of Style-sensitive Word Vectors. 
-                    In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL 2018), Melbourne, July 2018
+                    "<i>Unsupervised Learning of Style-sensitive Word Vectors</i>". 
+                    In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL 2018), Melbourne, July 2018.
                     <a href="https://arxiv.org/abs/1805.05581" target="_blank">paper</a>
                 </li>
                 <li>
@@ -112,7 +183,6 @@
                     <a href="http://www.aclweb.org/anthology/W13-4505" target="_blank">paper</a>
                 </li>
             </ol>
-
             <h3>Domestic Conference, Workshop, Symposium (in Japanese)</h3>
             <ol>
                 <li>
@@ -235,16 +305,19 @@
                 <div class="text">
                     Python, JavaScript, C/C++, C#, Swift, HTML, CSS, Unity, AfterEffects, PremierePro, Photoshop, Illustrator, Cubase, VOCALOID, MMD, Shade
                 </div>
+            
             <h2>Hobby</h2>
             <div class="text">
                 Future events that <a href="https://en.wikipedia.org/wiki/Hatsune_Miku" target="_blank">Hatsune Miku</a> opens, Programming, Video production.
             </div>
+
             <h2>Links</h2>
             <div class="text">
                 <div><a href="https://staff.aist.go.jp/m.goto/MIG/index-j.html" target="_blank">Media Interaction Research Group</a></div>
                 <div><a href="http://itri.aist-go.jp/en/index.html" target="_blank">Information Technology Research Institute (ITRI)</a></div>
                 <div><a href="http://www.aist.go.jp/index_en.html" target="_blank">National Institute of Advanced Industrial Science and Technology (AIST)</a></div>
             </div>
+
             <div id="footer">
                 All pages are copyrighted by the author. Unauthorized reproduction is strictly prohibited. 
             </div>
